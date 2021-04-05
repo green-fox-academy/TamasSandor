@@ -1,0 +1,63 @@
+body {
+  margin:0;
+  padding:0;
+  background-image: url(assets/background.png);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+  background: #333333; 
+}
+
+header, h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header ul li {
+  margin-left: 50px;
+  line-height: 50px;
+  font-size: large;
+  text-transform: uppercase;
+}
+
+a {
+  color: #ff0099;
+}
+
+header img {
+  margin: 10px;
+  float: left;
+}
+
+.container {
+  padding: 0 10%;
+  margin: 0 auto;
+}
+
+.name {
+  font-size: 4em;
+  text-align: left;
+}
+
+.title {
+  font-size: 2em;
+  color: #ff0099;
+}
+
+.separator {
+  text-align: center;
+  padding: 30px;
+}
+
+.wiki {
+  text-align: center;
+  font-size: 300%;
+}
