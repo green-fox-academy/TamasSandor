@@ -1,0 +1,55 @@
+html, body {
+    margin:0;
+    padding:0;
+    height: 100%;
+  }
+
+  body {
+      background: #faba75 url(bg.jpg) repeat-x bottom center;
+  }
+
+.container {
+    padding: 0 10%;
+    margin: 0 auto;
+  }
+
+  header {
+    background: #faba75 url(mars.jpg) repeat-x top center;
+    line-height: 100px;
+  }
+
+  .blog-title {
+      font-size: 2em;
+      color: white !important;
+  }
+
+  input, textarea {
+    border-image: linear-gradient(to right, red 20%, green 20%, green 40%, blue 40%, blue 60%, maroon 60%, maroon 80%, chocolate 80%); /* gradient with required colors */
+    border-image-slice: 1;
+  }
+  article {
+    border: #000 1px solid
+  }
+
+  textarea {
+      width: 100%;
+      min-height: 100px;
+      padding: 5px;
+  }
+
+  article {
+      margin: 10px 0;
+      padding: 10px;
+  }
+
+  body h4 {
+      margin-bottom: 0;
+  }
+
+  .post-title {
+      font-size: 2em;
+  }
+
+  button:hover {
+      background: tomato;
+  }
