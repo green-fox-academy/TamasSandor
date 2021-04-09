@@ -14,7 +14,7 @@ public class DrawChessTable {
         //  % % % %
         //
 
-        // Because a chess board can ONLY an ONLY be 8 by 8 there is a quite obvious answer:
+        // Because a chess board can ONLY and ONLY be 8 by 8 there is a quite obvious answer:
         System.out.println("% % % %");
         System.out.println(" % % % %");
         System.out.println("% % % %");

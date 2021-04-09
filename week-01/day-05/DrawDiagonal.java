@@ -7,12 +7,12 @@ public class DrawDiagonal {
         // Write a program that reads a number from the standard input, then draws a
         // square like this:
         //
-        //          i
-        // %%%%%    0
-        // %%  %    1   0   2
-        // % % %    2   1   1
-        // %  %%    3   2   0
-        // %%%%%    4
+        //
+        // %%%%%
+        // %%  %
+        // % % %
+        // %  %%
+        // %%%%%
         //
         // The square should have as many lines as the number was
         Scanner input = new Scanner(System.in);
