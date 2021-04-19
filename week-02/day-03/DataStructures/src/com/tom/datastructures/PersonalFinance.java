@@ -1,20 +1,12 @@
 package com.tom.datastructures;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class PersonalFinance {
   public static void main(String[] args) {
-    List<Integer> list = new ArrayList<>() {
-      {
-        add(500);
-        add(1000);
-        add(1250);
-        add(175);
-        add(800);
-        add(120);
-      }
-    };
+    List<Integer> list = Arrays.asList(500, 1000, 1250, 175, 800, 120);
 
     int sum = 0;
     for (int num : list) {

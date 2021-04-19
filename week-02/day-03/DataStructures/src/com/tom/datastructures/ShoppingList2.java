@@ -6,45 +6,48 @@ import java.util.Map;
 public class ShoppingList2 {
   public static void main(String[] args) {
 
-    Map<String, Double> shoppingList = new HashMap<>() {
-      {
-        put("Milk", 1.07);
-        put("Rice", 1.59);
-        put("Eggs", 3.14);
-        put("Cheese", 12.60);
-        put("Chicken Breasts", 9.40);
-        put("Apples", 2.31);
-        put("Tomato", 2.58);
-        put("Potato", 1.75);
-        put("Onion", 1.10);
-      }
-    };
+    Map<String, Double> shoppingList = Map.of(
+        "Milk", 1.07,
+        "Rice", 1.59,
+        "Eggs", 3.14,
+        "Cheese", 12.60,
+        "Chicken Breasts", 9.40,
+        "Apples", 2.31,
+        "Tomato", 2.58,
+        "Potato", 1.75,
+        "Onion", 1.10
+    );
 
-    Map<String, Integer> bobList = new HashMap<>() {
-      {
-        put("Milk", 3);
-        put("Rice", 2);
-        put("Eggs", 2);
-        put("Cheese", 1);
-        put("Chicken Breasts", 4);
-        put("Apples", 1);
-        put("Tomato", 2);
-        put("Potato", 1);
-      }
-    };
+    Map<String, Integer> bobList = Map.of(
+        "Milk", 3,
+        "Rice", 2,
+        "Eggs", 2,
+        "Cheese", 1,
+        "Chicken Breasts", 4,
+        "Apples", 1,
+        "Tomato", 2,
+        "Potato", 1
+    );
 
-    Map<String, Integer> aliceList = new HashMap<>() {
-      {
-        put("Rice", 1);
-        put("Eggs", 5);
-        put("Chicken Breasts", 2);
-        put("Apples", 1);
-        put("Tomato", 10);
-      }
-    };
+    Map<String, Integer> aliceList = Map.of(
+        "Rice", 1,
+        "Eggs", 5,
+        "Chicken Breasts", 2,
+        "Apples", 1,
+        "Tomato", 10
+    );
 
     System.out.println("Bob paid: " + sum(shoppingList, bobList));
     System.out.println("Alice paid: " + sum(shoppingList, aliceList));
+
+    System.out.println(
+        aliceList.getOrDefault("Rice", 0) > bobList.getOrDefault("Rice", 0) ?
+            "Alice" : "Bob" + " buys more Rice.");
+    System.out.println(
+        aliceList.getOrDefault("Potato", 0) > bobList.getOrDefault("Potato", 0) ?
+            "Alice" : "Bob" + " buys more Potato.");
+
+    System.out.println(aliceList.size() > bobList.size() ? "Alice" : "Bob" + " buys more products.");
   }
 
   public static double sum(Map<String, Double> prices, Map<String, Integer> list) {

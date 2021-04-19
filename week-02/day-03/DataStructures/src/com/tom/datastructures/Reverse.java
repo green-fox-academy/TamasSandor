@@ -12,6 +12,7 @@ public class Reverse {
 
     System.out.println(reverse(toBeReversed));
     System.out.println(reverse2(toBeReversed));
+    System.out.println(reverse3(toBeReversed));
   }
 
   private static String reverse(String str) {
@@ -28,5 +29,9 @@ public class Reverse {
       reversedStr.append(str, str.length() - 1 - i, str.length() - i);
     }
     return reversedStr.toString();
+  }
+
+  private static String reverse3(String str) {
+    return new StringBuffer(str).reverse().toString();
   }
 }

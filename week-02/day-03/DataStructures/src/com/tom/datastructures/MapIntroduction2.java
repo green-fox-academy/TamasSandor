@@ -5,14 +5,12 @@ import java.util.Map;
 
 public class MapIntroduction2 {
   public static void main(String[] args) {
-    Map<String, String> map = new HashMap<>() {
-      {
-        put("978-1-60309-452-8", "A Letter to Jo");
-        put("978-1-60309-459-7", "Lupus");
-        put("978-1-60309-444-3", "Red Panda and Moon Bear");
-        put("978-1-60309-461-0", "The Lab");
-      }
-    };
+    Map<String, String> map = new HashMap<>(Map.of(
+        "978-1-60309-452-8", "A Letter to Jo",
+        "978-1-60309-459-7", "Lupus",
+        "978-1-60309-444-3", "Red Panda and Moon Bear",
+        "978-1-60309-461-0", "The Lab"
+    ));
 
     for (Map.Entry<String, String> entry : map.entrySet()) {
       System.out.println(entry.getValue() + " (ISBN: " + entry.getKey() + ")");
