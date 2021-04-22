@@ -10,7 +10,7 @@ public class Ship {
 
   public void fillShip() {
     captain = new Pirate();
-    int rand = (int) (Math.random() * MAX_PIRATES);
+    int rand = (int) ((Math.random() * (MAX_PIRATES - 1)) + 1);
     for (int i = 0; i < rand; i++) {
       crew.add(new Pirate());
     }
