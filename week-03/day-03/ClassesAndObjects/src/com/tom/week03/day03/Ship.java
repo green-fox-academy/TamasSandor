@@ -49,9 +49,12 @@ public class Ship {
   }
 
   public void killCrew() {
-    int rand = (int) (Math.random() * crew.size());
-    if (rand > 0) {
-      crew.subList(0, rand).clear();
+    int rand = (int) (Math.random() * alivePirates());
+    for (Pirate pirate : crew) {
+      if (pirate.isAlive && rand > 0) {
+        pirate.die();
+        rand--;
+      }
     }
   }
 
