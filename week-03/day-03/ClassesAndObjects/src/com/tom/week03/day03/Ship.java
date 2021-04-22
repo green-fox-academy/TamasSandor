@@ -7,9 +7,6 @@ public class Ship {
   private ArrayList<Pirate> crew = new ArrayList<>();
   private boolean isDestroyed = false;
 
-  public Ship() {
-  }
-
   public void fillShip() {
     captain = new Pirate();
     int rand = (int) (Math.random() * 113);
