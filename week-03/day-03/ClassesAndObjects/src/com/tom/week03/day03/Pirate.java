@@ -20,7 +20,7 @@ public class Pirate {
     if (alive() && pirate.alive()) {
       double rand = Math.random();
       if (rand < 0.33) {
-        this.die();
+        die();
       } else if (rand < 0.66) {
         pirate.die();
       } else {
@@ -31,7 +31,7 @@ public class Pirate {
   }
 
   public void drinkSomeRum() {
-    this.alcoholLevel++;
+    alcoholLevel++;
   }
 
   public int getAlcoholLevel() {
