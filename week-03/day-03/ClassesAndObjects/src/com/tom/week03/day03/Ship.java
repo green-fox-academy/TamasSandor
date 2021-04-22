@@ -76,7 +76,7 @@ public class Ship {
   }
 
   private void drinkRandom(Pirate pirate) {
-    int rand = (int) (Math.random() * 10);
+    int rand = (int) ((Math.random() * (10 - 1)) + 1);
     while (rand > 0) {
       pirate.drinkSomeRum();
       rand--;
