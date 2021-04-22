@@ -72,7 +72,8 @@ public class Ship {
 
   @Override
   public String toString() {
-    return "The captain has consumed " + captain.getAlcoholLevel() + " rum(s) and there are " +
+    return "The captain has consumed " + captain.getAlcoholLevel() + " rum(s) and is " +
+        (captain.isAlive ? "alive" : "dead") + ". There are " +
         alivePirates() + " pirates alive.";
   }
 
