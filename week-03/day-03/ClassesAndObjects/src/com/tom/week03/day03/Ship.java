@@ -3,13 +3,14 @@ package com.tom.week03.day03;
 import java.util.ArrayList;
 
 public class Ship {
+  private static int MAX_PIRATES = 113;
   private Pirate captain;
   private ArrayList<Pirate> crew = new ArrayList<>();
   private boolean isDestroyed = false;
 
   public void fillShip() {
     captain = new Pirate();
-    int rand = (int) (Math.random() * 113);
+    int rand = (int) (Math.random() * MAX_PIRATES);
     for (int i = 0; i < rand; i++) {
       crew.add(new Pirate());
     }
