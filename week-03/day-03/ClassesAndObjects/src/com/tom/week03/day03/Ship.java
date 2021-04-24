@@ -3,7 +3,7 @@ package com.tom.week03.day03;
 import java.util.ArrayList;
 
 public class Ship {
-  private static int MAX_PIRATES = 113;
+  public static final int MAX_PIRATES = 113;
   private Pirate captain;
   private ArrayList<Pirate> crew = new ArrayList<>();
   private boolean isDestroyed = false;
