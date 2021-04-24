@@ -22,7 +22,7 @@ public class ReversedOrder {
         System.out.println(lines.get(lines.size() - 1 - i));
       }
     } catch (IOException e) {
-      System.out.println("File Error");
+      System.err.println("I/O error");
     }
   }
 }

@@ -5,7 +5,6 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.List;
 
 public class CountLines {
   public static void main(String[] args) {
@@ -22,7 +21,7 @@ public class CountLines {
     try {
       return Files.readAllLines(filePath, StandardCharsets.UTF_8).size();
     } catch (IOException e) {
-      System.out.println("Error happened");
+      System.err.println("I/O error");
     }
     return 0;
   }

@@ -15,7 +15,7 @@ public class CopyFile {
     //  - path and name of the target file
     // It should return a boolean that shows if the copy was successful
 
-    System.out.println(copyMyFile("my-file.txt", "copid-file.txt"));
+    System.out.println(copyMyFile("my-file.txt", "copied-file.txt"));
   }
 
   public static boolean copyMyFile(String source, String target) {
@@ -26,7 +26,7 @@ public class CopyFile {
       Files.write(Paths.get("data/" + target), lines, StandardCharsets.UTF_8);
       return true;
     } catch (IOException e) {
-      System.out.println("File Error");
+      System.err.println("I/O error");
     }
     return false;
   }

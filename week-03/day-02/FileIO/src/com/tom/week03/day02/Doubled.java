@@ -27,7 +27,7 @@ public class Doubled {
         System.out.println();
       }
     } catch (IOException e) {
-      System.out.println("File Error");
+      System.err.println("I/O error");
     }
   }
 }

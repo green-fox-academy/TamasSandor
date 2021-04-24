@@ -18,11 +18,12 @@ public class ReversedLines {
 
     try {
       List<String> lines = Files.readAllLines(filePath);
+      StringBuffer sb = new StringBuffer();
       for (String line : lines) {
-        System.out.println(new StringBuffer(line).reverse());
+        System.out.println(sb.delete(0, sb.length()).append(line).reverse());
       }
     } catch (IOException e) {
-      System.out.println("File Error");
+      System.err.println("I/O error");
     }
   }
 }

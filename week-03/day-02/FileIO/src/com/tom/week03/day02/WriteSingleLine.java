@@ -26,7 +26,7 @@ public class WriteSingleLine {
     try {
       Files.write(filePath, content, StandardCharsets.UTF_8);
     } catch (IOException e) {
-      System.out.println("Unable to write file: my-file.txt");
+      System.err.println("Unable to write file: my-file.txt");
     }
   }
 }

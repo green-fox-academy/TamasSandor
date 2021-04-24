@@ -1,9 +1,9 @@
 package com.tom.week03.day02;
 
 import java.io.IOException;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.nio.file.Files;
 import java.util.List;
 
 public class PrintEachLine {
@@ -20,7 +20,7 @@ public class PrintEachLine {
         System.out.println(line);
       }
     } catch (IOException e) {
-      System.out.println("Unable to read file: my-file.txt");
+      System.err.println("Unable to read file: my-file.txt");
     }
   }
 }
