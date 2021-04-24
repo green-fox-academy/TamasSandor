@@ -1,7 +1,5 @@
 package com.tom.week03.day03;
 
-import java.util.Date;
-
 public class BlogPost {
 
   private String authorName;
