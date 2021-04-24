@@ -6,7 +6,7 @@ public class Armada {
   private ArrayList<Ship> ships = new ArrayList<>();
 
   public Armada() {
-    this((int) (Math.random() * 100));
+    this((int) ((Math.random() * (100 - 1)) + 1));
   }
 
   public Armada(int num) {
