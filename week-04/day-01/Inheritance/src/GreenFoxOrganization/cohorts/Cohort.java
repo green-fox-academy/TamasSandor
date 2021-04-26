@@ -1,11 +1,14 @@
-package GreenFoxOrganization;
+package GreenFoxOrganization.cohorts;
 
+import GreenFoxOrganization.persons.Mentor;
+import GreenFoxOrganization.persons.Student;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Cohort {
   private String name;
-  private ArrayList<Student> students;
-  private ArrayList<Mentor> mentors;
+  private List<Student> students;
+  private List<Mentor> mentors;
 
   public Cohort(String name) {
     this.name = name;

@@ -1,10 +1,12 @@
-package Garden;
+package Garden.gardens;
 
+import Garden.plants.Plant;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Garden {
-  private ArrayList<Plant> plants;
+  private List<Plant> plants;
 
   public Garden() {
     plants = new ArrayList<>();

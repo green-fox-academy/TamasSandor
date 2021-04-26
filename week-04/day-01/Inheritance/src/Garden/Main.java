@@ -1,5 +1,10 @@
 package Garden;
 
+import Garden.gardens.Garden;
+import Garden.plants.Flower;
+import Garden.plants.Plant;
+import Garden.plants.Tree;
+
 public class Main {
   public static void main(String[] args) {
     Garden garden = new Garden(new Plant[] {

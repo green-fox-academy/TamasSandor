@@ -1,4 +1,4 @@
-package GreenFoxOrganization;
+package GreenFoxOrganization.persons;
 
 public class Sponsor extends Person {
   private String company;

@@ -1,4 +1,4 @@
-package Garden;
+package Garden.plants;
 
 public class Tree extends Plant {
   public Tree(String color) {

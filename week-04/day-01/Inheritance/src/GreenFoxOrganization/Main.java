@@ -1,5 +1,10 @@
 package GreenFoxOrganization;
 
+import GreenFoxOrganization.cohorts.Cohort;
+import GreenFoxOrganization.persons.Mentor;
+import GreenFoxOrganization.persons.Person;
+import GreenFoxOrganization.persons.Sponsor;
+import GreenFoxOrganization.persons.Student;
 import java.util.ArrayList;
 
 public class Main {

@@ -1,6 +1,6 @@
-package Garden;
+package Garden.plants;
 
-abstract class Plant {
+public abstract class Plant {
   protected String color;
   protected String plantType;
   protected int maxWater;

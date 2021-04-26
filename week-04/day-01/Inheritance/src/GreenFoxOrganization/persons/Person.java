@@ -1,4 +1,4 @@
-package GreenFoxOrganization;
+package GreenFoxOrganization.persons;
 
 public class Person {
   protected String name;
