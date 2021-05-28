@@ -2,7 +2,7 @@ page 50100 TestPage
 {
     trigger OnOpenPage()
     begin
-        FrequentWords();
+        Variables();
     end;
 
     local procedure Introduction()
