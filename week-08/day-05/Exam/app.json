@@ -1,6 +1,6 @@
 {
-  "id": "ef1267d2-5cc7-4041-8541-490f28431a48",
-  "name": "Movies",
+  "id": "913ea8f8-8379-41a9-be19-c9e77291cb6f",
+  "name": "Exam",
   "publisher": "Default publisher",
   "version": "1.0.0.0",
   "brief": "",
@@ -20,8 +20,7 @@
       "to": 50149
     }
   ],
-  "contextSensitiveHelpUrl": "https://Movies.com/help/",
+  "contextSensitiveHelpUrl": "https://Exam.com/help/",
   "showMyCode": true,
-  "runtime": "7.0",
-  "features": ["TranslationFile"]
+  "runtime": "7.0"
 }

@@ -1,6 +1,6 @@
 {
-  "id": "ef1267d2-5cc7-4041-8541-490f28431a48",
-  "name": "Movies",
+  "id": "86126ae0-0029-42d8-a89f-6ff4f20b6b0e",
+  "name": "DataSeed",
   "publisher": "Default publisher",
   "version": "1.0.0.0",
   "brief": "",
@@ -20,8 +20,7 @@
       "to": 50149
     }
   ],
-  "contextSensitiveHelpUrl": "https://Movies.com/help/",
+  "contextSensitiveHelpUrl": "https://DataSeed.com/help/",
   "showMyCode": true,
-  "runtime": "7.0",
-  "features": ["TranslationFile"]
+  "runtime": "7.0"
 }

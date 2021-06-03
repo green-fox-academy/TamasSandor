@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Movies">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 3624422183 - Field 2255204055 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DirectorId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BoxOffice - Field DirectorId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3624422183 - Field 2726668914 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DomesticSales</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BoxOffice - Field DomesticSales - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3624422183 - Field 415504711 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BoxOffice - Field Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3624422183 - Field 635864542 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InternationalSales</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BoxOffice - Field InternationalSales - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3624422183 - Field 587038791 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MovieId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BoxOffice - Field MovieId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3624422183 - Field 2597899412 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MovieTitle</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BoxOffice - Field MovieTitle - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3624422183 - Field 2689469945 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rating</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BoxOffice - Field Rating - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1637284436 - Field 1341342208 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AverageRating</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Director - Field AverageRating - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1637284436 - Field 3476748455 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Birth</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Director - Field Birth - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1637284436 - Field 4274883103 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DomesticSalesIncome</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Director - Field DomesticSalesIncome - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1637284436 - Field 415504711 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Director - Field Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1637284436 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Director - Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1637284436 - Field 1617325147 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TotalMovies</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Director - Field TotalMovies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2222822596 - Field 2255204055 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DirectorId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Movie - Field DirectorId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2222822596 - Field 1623451761 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DirectorName</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Movie - Field DirectorName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2222822596 - Field 415504711 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Movie - Field Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2222822596 - Field 4194217234 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LengthInMinutes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Movie - Field LengthInMinutes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2222822596 - Field 329424276 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Title</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Movie - Field Title - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2222822596 - Field 2832340769 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Year</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Movie - Field Year - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1816163857 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>List of Box Office</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BoxOfficeList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 718962494 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>List of Directors</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DirectorList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3790397166 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>List of Movies</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MovieList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3790397166 - Control 1623451761 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Director</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MovieList - Control DirectorName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3790397166 - Control 4194217234 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Length in minutes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MovieList - Control LengthInMinutes - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

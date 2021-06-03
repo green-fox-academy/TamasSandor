@@ -1,1 +1,1 @@
-﻿{"Added":[],"Modified":[],"Removed":[]}
+﻿{"Added":[],"Modified":[{"Id":50100,"Kind":11,"Name":"EventSubscriber","PackagePath":"/src/CodeUnits/EventSubscriber.al"}],"Removed":[{"Id":50100,"Kind":14,"Name":"DirectorQuery","PackagePath":"/src/CodeUnits/Queries/DirectorQuery.al"}]}

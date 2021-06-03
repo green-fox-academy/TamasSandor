@@ -1,0 +1,1 @@
+﻿{"Added":[{"Id":50102,"Kind":10,"Name":"Exam","PackagePath":"/src/Table/Exam.al"},{"Id":50103,"Kind":10,"Name":"ExamResult","PackagePath":"/src/Table/ExamResult.al"}],"Modified":[{"Id":50100,"Kind":10,"Name":"Subject","PackagePath":"/src/Table/Subject.al"},{"Id":50101,"Kind":10,"Name":"Student","PackagePath":"/src/Table/Student.al"}],"Removed":[]}
