@@ -1,0 +1,26 @@
+{
+  "id": "6772b1ee-c4a0-4e2b-8761-2b2d25d39ea9",
+  "name": "Dubai",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://Dubai.com/help/",
+  "showMyCode": true,
+  "runtime": "7.0"
+}
