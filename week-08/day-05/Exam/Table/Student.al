@@ -15,7 +15,7 @@ table 50101 Student
             trigger OnValidate()
             begin
                 If StrLen(Rec.Name) < 5 then begin
-                    Error('The Name minimum 5 caracter');
+                    FieldError(Rec.Name, 'The Name minimum 5 caracter');
                 end;
             end;
         }
@@ -25,21 +25,15 @@ table 50101 Student
             DataClassification = ToBeClassified;
             trigger OnValidate()
             begin
-                if Rec.Email.Contains('@') = false then begin
-                    Error('Email must contain a @');
+                if not Rec.Email.Contains('@') then begin
+                    FieldError(Rec.Email, 'Email must contain a @');
                 end;
             end;
         }
 
-        field(4; Gender; Text[1])
+        field(4; Gender; enum GenderEnum)
         {
             DataClassification = ToBeClassified;
-            trigger OnValidate()
-            begin
-                if (Rec.Gender <> 'M') or (Rec.Gender <> 'F') then begin
-                    Error('Gender must be Male or Femele you woke fuck!');
-                end;
-            end;
         }
 
         field(5; Birth; Date)
@@ -48,7 +42,7 @@ table 50101 Student
             trigger OnValidate()
             begin
                 if Rec.Birth < CalcDate('CY-65Y') then begin
-                    Error('You are an old fuck.');
+                    FieldError(Rec.Birth, 'You are an old fuck.');
                 end;
             end;
         }
@@ -71,7 +65,6 @@ table 50101 Student
     begin
         Validate(Rec.Name);
         Validate(Rec.Email);
-        Validate(Rec.Gender);
         Validate(Rec.Birth);
     end;
 
@@ -79,7 +72,6 @@ table 50101 Student
     begin
         Validate(Rec.Name);
         Validate(Rec.Email);
-        Validate(Rec.Gender);
         Validate(Rec.Birth);
     end;
 

@@ -15,18 +15,18 @@ table 50102 Exam
             trigger OnValidate()
             begin
                 If StrLen(Rec.Name) < 5 then begin
-                    Error('The Name minimum 5 caracter');
+                    FieldError(Rec.Name, 'The Name minimum 5 caracter');
                 end;
             end;
         }
 
-        field(3; DueDate; Date)
+        field(3; DueDate; Integer)
         {
             DataClassification = ToBeClassified;
             trigger OnValidate()
             begin
-                if Rec.DueDate < CalcDate('CD') then begin
-                    Error('Exam can not be in the past.');
+                if Rec.DueDate < Date2DMY(CalcDate('CD'), 3) then begin
+                    FieldError(Rec.DueDate, 'Exam can not be in the past.');
                 end;
             end;
         }
@@ -37,7 +37,7 @@ table 50102 Exam
             trigger OnValidate()
             begin
                 if (Rec.MaxScore > 100) or (Rec.MaxScore < 0) then begin
-                    Error('Exam score have to be between 0 and 100.');
+                    FieldError(Rec.MaxScore, 'Exam score have to be between 0 and 100.');
                 end;
             end;
         }
@@ -46,6 +46,12 @@ table 50102 Exam
         {
             DataClassification = ToBeClassified;
             TableRelation = Subject.Id;
+        }
+
+        field(6; SubjectName; Text[100])
+        {
+            FieldClass = FlowField;
+            CalcFormula = lookup(Subject.Name where(Id = field(SubjectId)));
         }
     }
 

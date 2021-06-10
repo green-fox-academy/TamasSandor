@@ -15,13 +15,20 @@ table 50103 ExamResult
             TableRelation = Student.Id;
         }
 
+        field(8; StudentName; Text[100])
+        {
+            FieldClass = FlowField;
+            CalcFormula = lookup(Student.Name where(Id = field(StudentId)));
+        }
+
         field(3; StudentScore; Integer)
         {
             DataClassification = ToBeClassified;
             trigger OnValidate()
             begin
+                CalcFields(MaxExamScore);
                 if Rec.StudentScore > MaxExamScore then begin
-                    Error('Student can not be too clever.');
+                    FieldError(Rec.StudentScore, 'Student can not be too clever.');
                 end;
             end;
         }
@@ -32,7 +39,7 @@ table 50103 ExamResult
             TableRelation = Exam.Id;
         }
 
-        field(5; ExamDate; Date)
+        field(5; ExamDate; Integer)
         {
             FieldClass = FlowField;
             CalcFormula = lookup(Exam.DueDate where(Id = field(ExamId)));

@@ -15,7 +15,7 @@ table 50100 Subject
             trigger OnValidate()
             begin
                 If StrLen(Rec.Name) < 2 then begin
-                    Error('The Name minimum 5 caracter');
+                    FieldError(Rec.Name, 'The Name minimum 5 caracter');
                 end;
             end;
         }
