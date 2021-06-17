@@ -1,0 +1,26 @@
+{
+  "id": "c4f21312-b85c-4b58-8eba-855d8f033504",
+  "name": "TrialExam2",
+  "publisher": "nickosz",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://Charity.com/help/",
+  "showMyCode": true,
+  "runtime": "7.0"
+}

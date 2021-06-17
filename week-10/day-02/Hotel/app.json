@@ -1,0 +1,26 @@
+{
+  "id": "d3905952-6cfa-48ec-9254-096db92e507d",
+  "name": "Hotel",
+  "publisher": "Hotel",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://Hotel.com/help/",
+  "showMyCode": true,
+  "runtime": "7.0"
+}
